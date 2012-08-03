@@ -1,8 +1,7 @@
 (function(){
     var w = window.open();
     getScripts(['http://code.jquery.com/jquery-1.7.2.min.js', 
-		'http://localhost:8080/seasurfer.js'],
-//		'https://raw.github.com/peterjaric/seasurfer/v3/seasurfer.js'],
+		'https://raw.github.com/peterjaric/seasurfer/v3/seasurfer.js'],
 	       function() {
 		   // Remove all global traces of our newly loaded
 		   // jQuery and then run the seaSurfer
