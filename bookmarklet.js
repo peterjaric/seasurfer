@@ -71,7 +71,7 @@
     }
  
  
-    getScript('http://code.jquery.com/jquery-1.7.2.min.js', function() {
+    getScript('//code.jquery.com/jquery-1.7.2.min.js', function() {
         // Remove all global traces of our newly loaded
         // jQuery and Then run the seaSurfer
         jQuery.noConflict(true)(function(jQuery) {
